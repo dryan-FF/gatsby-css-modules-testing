@@ -1,0 +1,16 @@
+.index {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.linkButton {
+  composes: button from '../styling/button.module.css';
+
+  background-color: white;
+  color: blue;
+
+  &:link,
+  &:visited {
+    color: blue;
+  }
+}
