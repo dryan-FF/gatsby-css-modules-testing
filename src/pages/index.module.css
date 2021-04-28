@@ -2,3 +2,7 @@
   max-width: 900px;
   margin: 0 auto;
 }
+
+.button {
+  composes: button from '../styling/button.module.css';
+}

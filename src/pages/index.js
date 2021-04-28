@@ -1,7 +1,7 @@
 import React from "react"
 
-import { index } from "./index.module.css"
-import { button } from "../styling/button.module.css";
+import { index, button } from "./index.module.css"
+
 
 class IndexComponent extends React.Component {
   render() {
