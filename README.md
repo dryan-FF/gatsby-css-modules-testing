@@ -14,3 +14,5 @@ See [`CSS_OUTPUT.css`](CSS_OUTPUT.css) to view the compiled CSS yourself.
 This seems to be due to the mixed use of `button.module.css` for composition in other CSS Modules, and in directly importing into a JS file. The alphabetical order of the pages also matters, likely due to how webpack is loading in each of these files.
 
 In [this branch](https://github.com/dryan-ff/gatsby-css-modules-testing/tree/no-issues), you can see that I've moved the direct import of `button.module.css`, instead composing it in `styling/index.module.css` (with no other styles) and importing it from that file.
+
+I've also built a simple page that compiles similar components/styles using Webpack, which does not have the same duplication issues: https://github.com/dryan-FF/webpack-modules-css-testing
