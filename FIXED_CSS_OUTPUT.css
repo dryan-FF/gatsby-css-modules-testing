@@ -10,17 +10,16 @@
   padding: 10px 18px;
   text-decoration: none;
   text-transform: uppercase;
-
-  &:hover {
-    cursor: pointer;
-  }
-
-  &:link,
-  &:visited {
-    color: #fff;
-  }
 }
 
+.button-module--button--9nqNa:hover {
+  cursor: pointer;
+}
+
+.button-module--button--9nqNa:link,
+.button-module--button--9nqNa:visited {
+  color: #fff;
+}
 .another-page-module--index--ZjApm {
   max-width: 900px;
   margin: 0 auto;
@@ -33,9 +32,9 @@
 }
 
 .another-page-module--linkButton--2Ugz9:link,
-  .another-page-module--linkButton--2Ugz9:visited {
-    color: green;
-  }
+.another-page-module--linkButton--2Ugz9:visited {
+  color: green;
+}
 .index-module--index--3-kz2 {
   max-width: 900px;
   margin: 0 auto;
@@ -56,6 +55,7 @@
 }
 
 .page-after-index-module--linkButton--1hZuU:link,
-  .page-after-index-module--linkButton--1hZuU:visited {
-    color: blue;
-  }
+.page-after-index-module--linkButton--1hZuU:visited {
+  color: blue;
+}
+

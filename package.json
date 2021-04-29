@@ -6,6 +6,9 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "scripts": {
+    "build": "npx gatsby build"
+  },
   "dependencies": {
     "gatsby": "^3.4.0",
     "react": "^17.0.2",
