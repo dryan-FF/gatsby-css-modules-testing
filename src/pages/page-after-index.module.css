@@ -8,9 +8,9 @@
 
   background-color: white;
   color: blue;
+}
 
-  &:link,
-  &:visited {
-    color: blue;
-  }
+.linkButton:link,
+.linkButton:visited {
+  color: blue;
 }
